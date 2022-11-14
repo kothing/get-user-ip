@@ -5,9 +5,9 @@ How to Get the IP Address in JavaScript
 
 
 ### First of all, you have to do
-// chrome://flags/#enable-webrtc-hide-local-ips-with-mdns
-// edge://flags/#enable-webrtc-hide-local-ips-with-mdns
-// set as disabled
+open your chrome chrome://flags/#enable-webrtc-hide-local-ips-with-mdns 
+opn your edge://flags/#enable-webrtc-hide-local-ips-with-mdns 
+and set as disabled
 
 
 ### Function
