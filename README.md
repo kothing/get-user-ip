@@ -1,15 +1,22 @@
 # GetUserIP
+How to Get the IP Address in JavaScript
 
-## Function
+## One
+
+
+### First of all, you have to do
+// chrome://flags/#enable-webrtc-hide-local-ips-with-mdns
+// edge://flags/#enable-webrtc-hide-local-ips-with-mdns
+// set as disabled
+
+
+### Function
 ```js
 
 /**
  * Get user IP
  * @param {function} onNewIP
  */
-// chrome://flags/#enable-webrtc-hide-local-ips-with-mdns
-// edge://flags/#enable-webrtc-hide-local-ips-with-mdns
-// set as disabled
 export function getUserIP(onNewIP) {
   //  onNewIp - your listener function for new IPs compatibility for firefox and chrome
   const PeerConnection =
@@ -64,10 +71,16 @@ export function getUserIP(onNewIP) {
 }
 ```
 
-## Usage
+### Usage
 ```js
 getUserIP((ip) => {
   console.log("Your IP:" + ip);
 });
 ```
+
+## Two
+
+https://www.abstractapi.com/guides/how-to-get-a-client-ip-address-in-node-js
+
+
 
